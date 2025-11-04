@@ -10,8 +10,8 @@ target 'R9HTTPRequest' do
   source 'https://github.com/CocoaPods/Specs.git'
   platform :ios, '10.0'
 
-  pod 'RxSwift'
-  pod 'RxCocoa'
+  pod 'RxSwift', '~> 6.0' 
+  pod 'RxCocoa', '~> 6.0'
   target 'R9HTTPRequestTests' do
     inherit! :search_paths
   end
